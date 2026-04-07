@@ -1,13 +1,13 @@
-import React from 'react';
+  import { AuthPage } from "../features/pages/AuthPage";
 
-const App = () => {
+function App() {
+
   return (
-    <div className="flex justify-center items-center h-screen bg-gray-100">
-      <h1 className="text-5xl font-extrabold text-blue-600 drop-shadow-md">
-        ¡Hola Mundo!
-      </h1>
-    </div>
-  );
-}
+    <>
+        <h1 > hola mundo </h1>
+        <AuthPage />
+    </>
+  );}
 
-export default App;
+export default App; 
+
