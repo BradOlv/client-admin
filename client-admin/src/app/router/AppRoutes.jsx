@@ -12,6 +12,8 @@ export const AppRoutes = ()=> {
             {/* PROTEGIDAS POR ROL */}
              <Route path="/dashboard/*" element={<DashboardPage />} />
             
+            {/* Ruta temporal para pruebas */}
+            <Route path="*" element={<h1>Página no encontrada</h1>} />
         </Routes>
     );
 }

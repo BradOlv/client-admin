@@ -3,6 +3,8 @@ import { createRoot } from 'react-dom/client'
 import { BrowserRouter } from "react-router-dom"
 import '../styles/index.css'
 import App from './App.jsx'
+
+console.log("comprobando variables", import.meta.env.VITE_AUTH_URL);
  
 // Eliminamos la importación de ThemeProvider
  
